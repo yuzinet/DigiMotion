@@ -4,7 +4,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-DigiMotion is a video processing tool. The project is in early development — no source code exists yet beyond environment configuration.
+DigiMotion は動画を一定間隔（例: 1秒ごと）でフレーム抽出し、中間の動きを間引くことで、被写体がまるで浮遊しながら移動しているように見える映像を生成するツールです。NHK「ピタゴラスイッチ」のデジタルウォークの概念を汎用化したもの。
+
+- 言語: Python（動画処理は OpenCV / ffmpeg を想定）
+- 出力先 `output/`、`frames/`、`tmp/` は `.gitignore` 対象
+
+詳細なコーディング規約・セキュリティルールは `.github/copilot-instructions.md` を参照。
 
 ## Environment Configuration
 
