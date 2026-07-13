@@ -11,6 +11,20 @@ DigiMotion は動画を一定間隔（例: 1秒ごと）でフレーム抽出し
 
 詳細なコーディング規約・セキュリティルールは `.github/copilot-instructions.md` を参照。
 
+## Commands
+
+```bash
+# 依存パッケージのインストール
+pip install -r requirements.txt
+
+# 実行
+python main.py <input_video>
+python main.py sample.mp4 --interval 0.5 --output output/result.mp4
+
+# ヘルプ
+python main.py --help
+```
+
 ## Environment Configuration
 
 Copy `.env.example` to `.env` and adjust values as needed:

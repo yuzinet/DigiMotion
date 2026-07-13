@@ -1,0 +1,26 @@
+# Environment
+.env
+*.pem
+*.key
+*.p12
+credentials.json
+secrets/
+
+# Output directories (never commit generated media)
+output/
+frames/
+tmp/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# macOS
+.DS_Store
